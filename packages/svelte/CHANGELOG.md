@@ -1,5 +1,31 @@
 # svelte
 
+## 5.0.0-next.245
+
+### Patch Changes
+
+- fix: visit expression for `svelte:component` references ([#13151](https://github.com/sveltejs/svelte/pull/13151))
+
+- fix: ensure signal graph is consistent before triggering $inspect signals ([#13153](https://github.com/sveltejs/svelte/pull/13153))
+
+- feat: better types for the `autocomplete` attribute ([#13201](https://github.com/sveltejs/svelte/pull/13201))
+
+- fix: widen ownership upon property access if necessary ([#13175](https://github.com/sveltejs/svelte/pull/13175))
+
+- fix: don't show `state_referenced_locally` warning on types ([#13177](https://github.com/sveltejs/svelte/pull/13177))
+
+- fix: ensure locally mutated bindable props persist with spreading props ([#13190](https://github.com/sveltejs/svelte/pull/13190))
+
+- fix: ensure types are easier to follow for TypeScript ([#13140](https://github.com/sveltejs/svelte/pull/13140))
+
+- fix: ensure unowned derived signals correctly re-connect to graph ([#13184](https://github.com/sveltejs/svelte/pull/13184))
+
+- fix: ensure inner script tags are properly removed ([#13152](https://github.com/sveltejs/svelte/pull/13152))
+
+- chore: improve ssr parent validation ([#13158](https://github.com/sveltejs/svelte/pull/13158))
+
+- fix: prevent nullish snippet for rendering empty content ([#13083](https://github.com/sveltejs/svelte/pull/13083))
+
 ## 5.0.0-next.244
 
 ### Patch Changes
